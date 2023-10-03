@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        margin-top: 2rem;
+        color: goldenrod;
+      }
+      div {
+        color: red;
+      }
+      aside p {
+        margin: unset;
+        color: unset;
+      }
+      div p {
+        margin: unset;
+        color: inherit;
+      }
+      .class1 {
+        color: #0000ff;
+      }
+      .class2 {
+        color: purple;
+      }
+      section p {
+        color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <p>this is no inside strong</p>
+    <aside>
+      <p>this is strong</p>
+    </aside>
+    <p>this is new p</p>
+    <div>
+      <p>this is inseide div</p>
+    </div>
+    <section class="class1">
+      this is inseide div
+      <p>this is inseide div</p>
+    </section>
+    <div class="class2"> this is inseide div</div>
+  </body>
+</html>
